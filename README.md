@@ -1,4 +1,4 @@
-![MDB Logo](https://visaomundial.org/_doeumaescolha/images/mdb.svg)
+![MDB Logo](https://maquinadobem.com/content/brand/mbSemFundoBig.png)
 
 
 # MDB Lab - Faça parte deste time  #
