@@ -1,0 +1,353 @@
+/* Corpo do site */
+body{
+	margin:0px;
+	/*background-color:#c9d0d3;*/
+	background-color:#000;
+	/*background-image:url(../img/bg.png);*/
+}
+
+#principal:hover{
+	background-color:#c9d0d3;
+	background-image:url(../img/bg.png);
+	
+}
+
+#corpo{
+	width:1024px;
+	height:2600px;
+	position:absolute;
+	margin-left:-512px;
+	left:50%;
+	margin-bottom:0px;
+}
+
+#fundo1,#fundo101{
+	width:1024px;
+	height:500px;
+	position:relative;
+	margin-top:42px;
+	
+}
+
+#fundo1{
+	background-image:url(../img/fundo1.png);
+	opacity:1;
+}
+
+#fundo101{
+	margin-top:-500px;
+	background-image:url(../img/fundo101.png);
+	opacity:0;
+	
+}
+
+#fundo101:hover{
+	opacity:1;
+	
+}
+
+#fundo101.active{
+	opacity:1;
+}
+
+
+
+
+
+#fundo2,#fundo3,#fundo4,#fundo5{
+	width:1024px;
+	height:500px;
+	
+}
+
+#fundo3{
+	margin-top:-16px;
+}
+
+
+.titulo2,.texto2,.titulo4,.texto4{
+	width:512px;
+	height:500px;	
+}
+
+.texto2,.cadastro,.texto4{
+	margin-left:512px;
+	margin-top:-500px;
+}
+
+.texto3,.cadastro{
+		width:512px;
+}
+
+.titulo1{
+	margin-left:390px;
+	position:absolute;
+	margin-top:40px;
+	font-size:30px;
+	color:#fff;
+}
+
+.texto101{
+	margin-left:330px;
+	position:absolute;
+	margin-top:430px;
+	font-size:40px;
+	color:#fff;
+		
+}
+
+
+
+.titulo2{
+	background-image:url(../img/oqe.png);
+	
+}
+
+.texto2{
+	background-color:#4ca8b1;
+	font-size:17px;
+	font-family:Verdana;
+
+}
+
+.texto2 p{
+	margin-left:15px;
+	margin-top:-15px;
+}
+
+.texto3{
+	height:500px;
+	background-color:#ffe172;
+
+}
+
+.texto3 p{
+	font-size:17px;
+	font-family:Verdana;
+	margin-left:6%;
+	margin-top:-5%;
+	
+	
+}
+
+.negrito{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.cadastro{
+	height:500px;
+	background-image:url(../img/doest.png);
+}
+
+#formulario{
+	margin-top:220px;
+	margin-left:15px;
+}
+
+.cadnome,.email,.celular,.aonde{
+	width:470px;
+	height:30px;
+	border-radius:10px;
+	background-color:#4ca8b1;
+	border:3px solid #fff;
+	margin-top:3px;
+}
+
+.sejavoluntario{
+	margin-top:5px;
+	margin-left:350px;
+	background-color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	border-color:#4ca8b1;
+	border-radius:5px;
+	height:25px;
+	cursor:pointer;
+	
+}
+
+::-webkit-input-placeholder { 
+  color: #000;
+  font-family:Verdana;
+  font-weight:bold;
+}
+
+.titulo4{
+	background-image:url(../img/doeuk.png);
+}
+
+.texto4{
+	background-image:url(../img/kit_img.png);
+
+}
+
+.texto4 p{
+	margin-top:380px;
+	font-family:Verdana;
+	font-size:17px;
+	margin-left:25px;
+	font-weight:bold;
+}
+
+.doar{
+	width:100px;
+	height:25px;
+	margin-left:20px;
+	margin-top:5px;
+	background-color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	border-color:#fcc816;
+	border-radius:5px;
+	height:25px;
+	cursor:pointer;
+	
+}
+
+#fundo5{
+	background-image:url(../img/vm.png);
+}
+
+#rodape{
+	width:1024px;
+	height:90px;
+	background-color:#CACFD2;
+	margin-top:-10px;
+	position:relative;
+	margin-bottom:0px;
+}
+
+.lescolha2{
+	background-image:url(../img/lprojeto_rodape.png);
+	width:200px;
+	height:50px;
+	margin-top:10px;
+}
+
+.lmdb{
+	background-image:url(../img/lmdb.png);
+	width:200px;
+	height:50px;
+	margin-top:-45px;
+	margin-left:200px;
+	
+}
+
+.copyr{
+	width:260px;
+	height:50px;
+	margin-left:450px;
+	margin-top:-30px;
+	font-size:12px;
+	
+}
+
+.insta{
+	background-image:url(../img/linsta.png);
+	width:40px;
+	height:40px;
+	margin-left:800px;
+	margin-top:-60px;
+	
+}
+
+.fb{
+	background-image:url(../img/lfb.png);
+	width:40px;
+	height:40px;
+	margin-left:860px;
+	margin-top:-40px;
+	
+}
+
+.tw{
+	background-image:url(../img/ltwitter.png);
+	width:40px;
+	height:40px;
+	margin-left:920px;
+	margin-top:-40px;
+	
+}
+
+.texto501{
+	margin-top:100px;
+	width:300px;
+	margin-left:5%;
+	font-family:Verdana;
+	font-size:17px;
+}
+
+.texto502{
+	margin-top:-50px;
+	width:320px;
+	margin-left:650px;
+	font-family:Verdana;
+	font-size:17px;
+}
+
+.texto503{
+	width:315px;
+	font-family:Verdana;
+	font-size:17px;
+	margin-left:5%;
+}
+
+.texto504{
+	width:315px;
+	font-family:Verdana;
+	font-size:17px;
+	margin-left:650px;
+	margin-top:-60px;
+}
+
+/*Menu*/
+
+#menu{
+	width:1024px;
+	position:absolute;
+	background-image:url(../img/menubg.png);
+	margin-left:0px;
+}
+
+#menu ul {
+	margin:0px;
+	list-style:none;
+	margin-left:75px;
+	margin-top:-5px;
+}
+
+#menu ul li { 
+	display: inline; 
+
+}
+
+#menu ul li a {
+	padding:-5px 15px;
+	display: inline-block;
+	margin-left:15px;
+	color: #a00078;
+	text-decoration: none;
+
+}
+
+.mtext{
+	font-family:Verdana;
+	font-weight:bold;
+	margin-top:5px;
+	padding:10px 20px;
+
+}
+
+#menu ul li a .mtext:hover {
+	background-color:#fff;
+	color: #000;
+	border-bottom:3px solid #FF00DC;
+	position:relative;
+}
+
+
+
+
+
+
