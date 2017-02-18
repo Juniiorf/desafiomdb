@@ -1,0 +1,183 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<html xmlns="www.w3c.org">
+	<head>
+	<title> Doe uma Escolha </title>
+	<script language="javascript" type="text/javascript">
+		
+		function ValidaCelular(celular){
+			exp = /\(\d{2}\)\ \d{4}\-\d{4}/
+			if(!exp.test(celular.value)){
+                alert('Numero de Telefone Invalido!');
+				celular.value.focus();
+				return true
+			}else{
+				return false;
+}		};		
+		
+		function validacao() {
+			var nome = formulario.cadnome.value;
+			var email = formulario.email.value;
+			var aonde = formulario.aonde.value;
+				
+			if(nome==""||nome == null){
+				alert('Digite seu nome');
+				nome.focus();
+				return false;
+			}
+			
+			if(aonde==""||aonde == null){
+				alert('Indique um local válido');
+				aonde.focus();
+				return false;
+			}
+			
+			if(email.indexOf("@") == -1 ||email.valueOf.indexOf(".") == -1 || email == "" || email == null) {
+				alert('Por favor, indique um e-mail válido.');
+				email.focus();
+				return false;
+			}
+			
+			
+		};
+		
+	</script>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	
+	<script type='text/javascript'>
+		$(document).ready(function()
+		{
+			$("#fundo2,#fundo3,#fundo4,#fundo5,#rodape,#menu").hide();
+			$("#principal").hover(function()
+			{
+				$("#fundo2,#fundo3,#fundo4,#fundo5,#rodape,#menu").show();
+			});
+		});
+	</script>
+		
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" href="css/estiloadapt.css">
+		<link rel="shortcut icon" type="image/x-icon" href="img/icone.png"> 
+		<meta name="author" content="Anna C.I.A."/>	
+	</head>
+	<body id="principal">
+
+		<div id="corpo">
+			<div id="menu">
+				
+				<ul>
+					<li><a href="#fundo2"><p class="mtext">O que é?</p></a></li>
+					<li><a href="#fundo3"><p class="mtext">Quero doar tempo</p></a></li>
+					<li><a href="#fundo4"><p class="mtext">Quero doar um kit</p></a></li>
+					<li><a href="#fundo5"><p class="mtext">Visão Mundial</p></a></li>
+				</ul>
+				
+
+			</div>
+			<div id="fundo1">
+				<div class="titulo1">
+					Ter uma escolha
+				</div>
+				
+			</div>
+		<div class="lescolha"></div>
+
+		<div class="lvisao"></div>
+		<div id="fundo101">
+			<div class="titulo1">
+				Ter uma escolha
+			</div>
+			<div class="texto101">
+				Faz toda a diferença
+			</div>
+		</div>
+	
+		<div id="fundo2">
+			<div class="titulo2"></div>
+			<div class="texto2">
+				<br><br><br>
+				 <p>Fazemos escolhas todos os dias.
+				<br><br>
+				 Usar lápis ou caneta?<br>
+				 Ler um livro no tablet ou em papel?<br>
+				 Estudar num colégio público ou privado?<br>
+				 Ser astronauta ou engenheiro?<br><br>
+				 Para algumas pessoas as escolhas são mais fáceis.<br> 
+				 Os estojos estão cheios de lápis e canetas coloridas.<br> 
+				 As estantes estão fartas de livros ainda não lidos e as mesas repletas de tablets e notebooks.<br><br>
+				 Mas há também milhares de crianças que não tem escolha. A caneta já não tem mais tinta. Eles não sabem ler nem escrever. Hoje, estudam em escolas precárias e precisam de ajuda para comprar os livros e materiais.<br><br> 
+				 Suas escolhas podem mudar o futuro de uma criança.<br><br> </p>
+			</div>
+		</div>
+		<div id="fundo3">
+			<div class="texto3"><p>
+				<br><br>
+				Olá, nós somos a Visão Mundial, uma organização não <br> governamental humanitária que tem como objetivo ajudar aqueles que mais necessitam!<br> 
+				Atuamos há 41 anos no país ajudando crianças e <br> adolescentes a terem acesso à programas sociais que <br> levam educação, 
+				lazer e saúde às comunidades mais carentes do Brasil. E nosso trabalho só é possível graças <br> à pessoas como você que, assim como a gente, 
+				acredita que juntos dá sim para mudar o mundo! Somos <br> parceiros da World Vision Internacional, que está <br> presente em mais de 100 países 
+				lutando para erradicar <br> a pobreza e garantir condições de vida mais justas para pessoas carentes ou que estão em situação de vulnerabilidade, 
+				principalmente os mais jovens. <br><br><p class="negrito">
+				E você, que tal mudar a vida de uma criança? 
+				<br>Entre para o nosso time!</p></p>
+			</div>
+			<div class="cadastro"><br><br><br>
+				<form id="formulario" name="formulario" type="text/plain" method="get">
+					<input type="text" placeholder=" Nome" class="cadnome" name="cadnome" maxlength="60"/>
+					<br>
+					<input type="text" placeholder=" E-mail" name="email" class="email" size="60%" maxlength="50"/>
+					<br>
+					<input type="text" placeholder=" Celular" name="celular" class="celular" size="60%" maxlength="11" onblur="ValidaCelular(formulario.celular);"/>
+					<br>
+					<input type="text" placeholder=" Aonde quero ser voluntário?" name="aonde" class="aonde" size="60%" maxlength="50"/>
+					<br>
+					<input type="submit" class="sejavoluntario" value="Seja Voluntário" href="#" onclick="validacao()">
+				</form>
+			</div>
+		</div>
+		<div id="fundo4">
+			<div class="titulo4"></div>
+			<div class="texto4"><br><br><p>
+				Você esta 1 clique de garantir um kit escolar <br>para uma criança
+				<input type="submit" class="doar" value="Doar" href="#"></p>
+			</div>
+			
+			<div class="kit"></div>
+		</div>
+
+		<div id="fundo5">
+			<div class="titulo5"></div>
+			<br>
+			<div class="texto501">
+				Você irá garantir que a criança tenha acesso à programas de educação, saúde e lazer que<br> serão criados na região que ela vive.
+			</div>
+			<div class="texto502">
+				Investir em crianças que precisam de ajuda é garantir que elas tenham condições de terem um futuro melhor e se tornarem adultos independentes que contribuem com a sociedade.
+			</div>
+			<div class="texto503">
+				Ao ajudar uma criança, você também estará ajudando a comunidade que ela vive, que <br>será impactada positivamente <br> com os programas de bem-estar social que serão criados.
+			</div>
+			<div class="texto504">
+				Como padrinho/madrinha, você poderá ter contato com a criança através de cartas, vendo de perto o seu desenvolvimento e os benefícios de seu apadrinhamento!
+			</div>
+		</div>
+		<div id="rodape">
+			<div class="lescolha2"></div>
+			<div class="lmdb"></div>
+			<div class="copyr">
+				@Copyright . Doe uma escolha | Visão Mundial <br> Made with s2 in SP . escolhas.vc . 2017 
+			</div>
+			<div class="insta"></div>
+			<div class="fb"></div>
+			<div class="tw"></div>
+		</div>
+
+	</div>
+
+	
+	</body>
+
+
+</html>
