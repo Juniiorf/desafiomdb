@@ -1,0 +1,167 @@
+/* Título das sessões */
+.titulo-principal, 
+.titulo-principal-sessao1,
+.titulo-principal-sessao2,
+.titulo-principal-sessao3{
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color: blue;
+}
+
+.titulo-principal{
+	text-align: left;
+}
+
+.titulo-principal-sessao1,
+.titulo-principal-sessao2{
+	text-align: right;
+}
+
+.titulo-principal-sessao3{
+	text-align: center;
+}
+
+
+/* Sessões */
+
+.inicio {
+	padding-bottom: 60px;
+	background: url("../img/texturas/textura1.png");
+}
+
+.primeira-sessao{
+	font-family: 'Indie Flower', cursive;	
+	background: url("../img/texturas/textura2.png");
+	color: #5d81d3;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.segunda-sessao{
+	background: url("../img/texturas/textura3.png");
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.terceira-sessao {
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;	
+	background: url("../img/texturas/textura4.png");
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#o-que-e {
+	padding-bottom: 60px;
+}
+
+
+/* Rows */
+.row-icones-primeira-linha, 
+.row-icones-segunda-linha{
+   color:red;
+}	
+
+
+/* Textos */
+.texto-o-que-e {
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	text-align: left;
+	font-size: 18px;
+}
+
+.texto-doe-tempo{
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	text-align: justify;
+	text-align: right;
+}
+
+.mensagem-doacao {
+	text-align: right;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+/* Imagens e icones */
+.imagem-menina {
+	margin-top: -30px;
+}
+
+.kit {
+   color:red;
+}
+
+.visaomundial {
+	background: #db1588;
+}
+
+.logo-due {
+	margin-top: -15px;
+}
+
+.logo-vm {
+	margin-top: -90px;
+	padding-left: 120px;
+}
+
+.icones img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.icones:hover img {
+    -webkit-transform:scale(1.10); /* Safari and Chrome */
+    -moz-transform:scale(1.10); /* Firefox */
+    -ms-transform:scale(1.10); /* IE 9 */
+    -o-transform:scale(1.10); /* Opera */
+    transform:scale(1.10);
+}
+
+.icon-vm {
+	margin-bottom: 5px;
+}
+
+
+/* navbar */
+.navbar-top {
+	background: #9515db;
+}
+
+.navbar {
+    border-radius: 9px;
+}
+
+.paginas {
+	margin: 2.0em 18% 0;
+}
+
+.paginas > li {
+	color: white;
+}
+
+.menu {
+	margin-top: -60px;
+}
+
+.paginas {
+	margin: 2.5em 40% 0;
+	margin-top: -60px;
+	width: 550px;
+}
+
+/* Footer */
+.rodape {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.blank {
+	height: 20px;
+}
